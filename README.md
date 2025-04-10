@@ -23,10 +23,13 @@
 
 #Usage:
 	clone files: git lfs clone https://github.com/Evan2001ok/health_system_api.git
+ 
 	Run health_api_server.py on the first device
+ 
 	Run test_integration.py on the second device
  
 	Run the command on the second device
+ 
 	python test_integration.py --api_url http://localhost:5000/api --voice /path/to/test/audio.wav --face /path/to/test/image.jpg
 
 
