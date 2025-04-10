@@ -22,6 +22,7 @@
 	face_model_path="/home/pi/emotion_analysis/face_emotion_model.onnx"
 
 #Usage:
+
 	clone files: git lfs clone https://github.com/Evan2001ok/health_system_api.git
  
 	Run health_api_server.py on the first device
