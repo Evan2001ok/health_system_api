@@ -22,15 +22,22 @@ size 2074
 
 #Configuration:
 	Modify the health_api_server.py file before running (make sure the model path is correct)
+ 
 	voice_model_path="/home/pi/emotion_analysis/improved_model.onnx"
+ 
 	face_model_path="/home/pi/emotion_analysis/face_emotion_model.onnx"
 
 #Usage:
 	Run health_api_server.py on the first device
+ 
 	Run test_integration.py on the second device
+ 
 	Run the command on the second device
+ 
 	python test_integration.py --api_url http://localhost:5000/api --voice /path/to/test/audio.wav --face /path/to/test/image.jpg
-	example : python test_integration.py --api_url http://192.168.5.208:5000/api --voice "C:\Users\win\Downloads\heal_system\health_system_api\audios\angry.wav" --face "C:\Users\win\Downloads\heal_system\health_system_api\images\happy.jpg
+ 
+	example :
+ python test_integration.py --api_url http://192.168.5.208:5000/api --voice "C:\Users\win\Downloads\heal_system\health_system_api\audios\angry.wav" --face "C:\Users\win\Downloads\heal_system\health_system_api\images\happy.jpg
 
 
 
