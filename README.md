@@ -39,7 +39,8 @@ size 2074
  
 	python test_integration.py --api_url http://localhost:5000/api --voice /path/to/test/audio.wav --face /path/to/test/image.jpg
  
-	example :
+example :
+ 
  python test_integration.py --api_url http://192.168.5.208:5000/api --voice "C:\Users\win\Downloads\heal_system\health_system_api\audios\angry.wav" --face "C:\Users\win\Downloads\heal_system\health_system_api\images\happy.jpg
 
 
