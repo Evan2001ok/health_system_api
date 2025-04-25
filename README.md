@@ -18,9 +18,11 @@ size 2074
 	test_integration.py -api call test code
 
 #Dependency installation:
+
 	pip install numpy librosa onnxruntime opencv-python flask werkzeug requests
 
 #Configuration:
+
 	Modify the health_api_server.py file before running (make sure the model path is correct)
  
 	voice_model_path="/home/pi/emotion_analysis/improved_model.onnx"
@@ -28,6 +30,7 @@ size 2074
 	face_model_path="/home/pi/emotion_analysis/face_emotion_model.onnx"
 
 #Usage:
+
 	Run health_api_server.py on the first device
  
 	Run test_integration.py on the second device
@@ -44,6 +47,7 @@ size 2074
  #Judgment system's core logic:
 
 #Standardization: 
+
 	Converts different emotion formats (like "female_angry" or "Angry") to standard categories (like "angry").
 
 #Emotion fusion:
